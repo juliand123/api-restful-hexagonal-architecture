@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AwesomeShop.Core\AwesomeShop.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Azure.Data.Tables" Version="12.8.1" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0-preview.6.23329.7" />
+      <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
+    </ItemGroup>
+
+
+</Project>
